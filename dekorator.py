@@ -1,3 +1,7 @@
+#Napisz dekorator funkcji, który będzie logował informację o nazwie i typie
+#wszystkich parametrów wejściowych funkcji dekorowanej w postaci:
+#{<nazwa_parametru>: <typ_danych>, …}.
+
 from functools import wraps
 from typing import get_type_hints
 

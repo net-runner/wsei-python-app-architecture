@@ -1,3 +1,8 @@
+#Napisz klasę, która będzie implementować generator kolejnych n potęg liczby a.
+#Użyj metod magicznych __iter__() i __next__(). Liczby n i a powinny być
+#parametrami wejściowymi generatora.
+
+
 class PowerGenerator:
     def __init__(self, a, n):
         self.a = a
